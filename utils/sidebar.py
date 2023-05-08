@@ -6,7 +6,7 @@ from utils.code_examples import get_code_example
 
 
 def show_sidebar_options():
-   locations = [
+    locations = [
         {
             "id": "atlanta",
             "name": "Crowne Plaza Atlanta Perimeter",
