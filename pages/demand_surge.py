@@ -43,7 +43,13 @@ def demand_surge():
     ):
         return
 
-    st.header(location["name"])
+    col1, col2 = st.columns([1,5])
+    with col1:
+        st.markdown("<img src='app/static/str_logo.png' width='160' />", unsafe_allow_html=True)
+    
+    with col2:
+        st.header("")
+        st.header(location["name"] + ", " + location["address"])
 
     # Display metrics
     show_metrics()
