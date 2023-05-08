@@ -8,15 +8,6 @@ from utils.code_examples import get_code_example
 def show_sidebar_options():
     locations = [
         {
-            "id": "atlanta",
-            "name": "Crowne Plaza Atlanta Perimeter",
-            "address": "4355 Ashford Dunwoody Road, Atlanta",
-            "lat": 33.92097,
-            "lon": -84.33779,
-            "tz": "America/New_York",
-            "units": "imperial",
-        },
-        {
             "id": "atlanta4",
             "name": "Hotel Indigo Atlanta Downtown",
             "address": "230 Peachtree St NE, Atlanta",
@@ -40,6 +31,15 @@ def show_sidebar_options():
             "address": "23 Linden Ave NW, Atlanta",
             "lat": 33.770224, 
             "lon": -84.388218,
+            "tz": "America/New_York",
+            "units": "imperial",
+        },
+        {
+            "id": "atlanta",
+            "name": "Crowne Plaza Atlanta Perimeter",
+            "address": "4355 Ashford Dunwoody Road, Atlanta",
+            "lat": 33.92097,
+            "lon": -84.33779,
             "tz": "America/New_York",
             "units": "imperial",
         },
